@@ -23,7 +23,7 @@ namespace Message
             IMessage message3 = new WhatsApp();
             IMessage message4 = new Telegram();
 
-            SendMessage(message4);
+            SendMessage(message1);
         }
 
         static void SendMessage(IMessage message)
